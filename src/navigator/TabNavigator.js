@@ -5,10 +5,10 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import IconM from 'react-native-vector-icons/MaterialCommunityIcons';
 import Home from '../components/HomeScreen';
 import {BlurView} from '@react-native-community/blur';
-import YogaAndBMI from '../components/YogaAndBMI';
 import Profile from '../components/Profile';
 import Run from '../components/Run';
 import HealthyScreen from '../components/HealthyScreen';
+import BMIScreen from '../components/BMIScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -48,11 +48,11 @@ const TabNavigator = () => {
         }} />
 
       <Tab.Screen
-        name="YogaAndBMI"
-        component={YogaAndBMI}
+        name="BMI"
+        component={BMIScreen}
         options={{
           tabBarIcon: ({focused, color, size}) => (
-            <IconM name="yoga" size={size} color={focused ? '#636AF2' : '#8B8787'} />
+            <IconM name="heartbeat" size={size} color={focused ? '#636AF2' : '#8B8787'} />
           ),
         }} />
 

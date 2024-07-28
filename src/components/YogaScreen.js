@@ -5,9 +5,9 @@ import Header from './Header';
 
 const YogaScreen = () => {
     const videos = [
-        { id: 'v7AYKMP6rOE', title: '30-Minute Yoga for Beginners' },
-        { id: '4pKly2JojMw', title: 'Morning Yoga Routine' },
-        { id: 'X3-gKPNyrTA', title: 'Yoga for Relaxation and Stress Relief' },
+        { id: 'v7AYKMP6rOE', title: '30 phút yoga mỗi ngày' },
+        { id: '4pKly2JojMw', title: 'Chào buổi sáng bằng yoga' },
+        { id: 'X3-gKPNyrTA', title: 'Thư giản' },
     ];
 
     return (

@@ -9,7 +9,6 @@ import auth from '@react-native-firebase/auth';
 import EditProfile from './src/components/EditProfile';
 import Profile from './src/components/Profile';
 import Run from './src/components/Run';
-import YogaAndBMI from './src/components/YogaAndBMI';
 import messaging from '@react-native-firebase/messaging';
 import YogaScreen from './src/components/YogaScreen';
 import ThienScreen from './src/components/ThienScreen';
@@ -17,6 +16,7 @@ import MusicScreen from './src/components/MusicScreen';
 import AlarmScreen from './src/components/AlarmScreens';
 import HealthyScreen from './src/components/HealthyScreen';
 import HomeScreen from './src/components/HomeScreen';
+import BMIScreen from './src/components/BMIScreen';
 
 const App = () => {
   const Stack = createNativeStackNavigator();
@@ -58,7 +58,7 @@ const App = () => {
         <Stack.Screen name='Profile' component={Profile} />
         <Stack.Screen name='Run' component={Run} />
         <Stack.Screen name='Health' component={HealthyScreen} />
-        <Stack.Screen name='Yoga' component={YogaAndBMI} />
+        <Stack.Screen name='BMI' component={BMIScreen} />
         <Stack.Screen name='YogaScreen' component={YogaScreen} />
         <Stack.Screen name='Thien' component={ThienScreen} />
         <Stack.Screen name='Music' component={MusicScreen} />

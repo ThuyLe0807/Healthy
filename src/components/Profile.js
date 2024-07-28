@@ -90,17 +90,17 @@ const Profile = () => {
           onPress={() => navigation.navigate('EditProfile')}
         >
           <Icon name="account-edit" size={25} color="#000" />
-          <Text style={styles.optionText}>Edit profile information</Text>
+          <Text style={styles.optionText}>Sửa thông tin</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.optionItem}>
           <Icon name="bell" size={25} color="#000" />
-          <Text style={styles.optionText}>Notifications</Text>
+          <Text style={styles.optionText}>Thông báo</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.optionItem}>
           <Icon2 name="language" size={25} color="#000" />
-          <Text style={styles.optionText}>Language</Text>
+          <Text style={styles.optionText}>Ngôn ngữ</Text>
         </TouchableOpacity>
 
         <TouchableOpacity 
@@ -108,7 +108,7 @@ const Profile = () => {
           onPress={handleLogout}
         >
           <Icon2 name="log-out" size={25} color="#000" />
-          <Text style={styles.optionText}>Log out</Text>
+          <Text style={styles.optionText}>Đăng xuất</Text>
         </TouchableOpacity>
       </View>
     </View>

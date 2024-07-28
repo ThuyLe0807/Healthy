@@ -11,7 +11,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const screenWidth = Dimensions.get('window').width;
 
-const YogaAndBMI = () => {
+const BMIScreen = () => {
   const [isTracking, setIsTracking] = useState(false);
   const [startTime, setStartTime] = useState(null);
   const [totalSleepTime, setTotalSleepTime] = useState(0);
@@ -305,4 +305,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default YogaAndBMI;
+export default BMIScreen;
