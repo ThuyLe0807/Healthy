@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "395029677277",
+    "project_id": "energy-3aeb5",
+    "storage_bucket": "energy-3aeb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395029677277:android:bcd1f8e55b9a219f878734",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYtNU5E61RZfUGNnEeddX9TLdoGGO-NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395029677277:android:d91306dd5fcfe805878734",
+        "android_client_info": {
+          "package_name": "com.app1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYtNU5E61RZfUGNnEeddX9TLdoGGO-NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395029677277:android:02eea09fb6e6337e878734",
+        "android_client_info": {
+          "package_name": "com.energy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYtNU5E61RZfUGNnEeddX9TLdoGGO-NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
